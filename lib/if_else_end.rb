@@ -1,5 +1,5 @@
 # Write your solution here
-chanceRain = 0
+chanceRain = -287
 if chanceRain <= 0.25
   puts "PACLK a sun shelter"
 elsif (chanceRain > 0.25 && chanceRain < 0.75)
