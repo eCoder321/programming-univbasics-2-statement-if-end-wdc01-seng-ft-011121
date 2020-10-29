@@ -1,5 +1,5 @@
 # Write your solution here
-chanceRain = -287
+current_second = Time.now.select_second
 if chanceRain <= 0.25
   puts "PACLK a sun shelter"
 elsif (chanceRain > 0.25 && chanceRain < 0.75)
