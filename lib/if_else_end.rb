@@ -1,10 +1,8 @@
 # Write your solution here
 current_second = Time.now.to_i
-if chanceRain <= 0.25
-  puts "PACLK a sun shelter"
-elsif (chanceRain > 0.25 && chanceRain < 0.75)
-  puts "Paxk umvrella"
+if current_second % 2 == 0
+  puts "Even!"
 else
-  puts "Enjoy your staycation!"
+  puts "Odd!"
 end 
 #puts "Oh, and always a sunscreen"
